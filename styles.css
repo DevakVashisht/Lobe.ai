@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border-style: border-box;
+    background-color: #fff;
+}
+
+.download-btn {
+    background-color: #04ddb2;
+    outline: none;
+    border-radius: 13.5rem;
+    outline: #04ddb2;
+    padding: 0.7rem 1.3rem;
+    font-weight: 700;
+    color: #fff;
+    font-size: large;
+    margin-top: 0.5rem;
+    border-color: #04ddb2;
+    margin-right: 3rem;
+    margin-left: 25%;
+    transition: 0.4s ease-in-out;
+}
+
+.download-btn:hover {
+    background-color: #04ddb2;
+    border: #04ddb2;
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    padding: 1rem 2rem;
+}
+
+nav {
+    position: -webkit-sticky;
+}
+
+.black {
+    color: rgba(0,0,0,.5);
+}
+
+.lobe-logo {
+    font-size: 160%;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding-left: 2rem;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-link {
+   color: rgba(0,0,0,.5) !important;
+}
+
+.navbar-nav {
+    display: flex;
+    margin-left: 27%;
+}
+
+.navbar-toggler {
+    /* background-image: url('Images/burger-solid.svg'); */
+    background-size: 50%;
+    border: #fff;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+.navbar-toggler:hover {
+    border: #fff;
+}
+
+.green {
+    color: #04ddb2;
+}
+
+.main-head {
+    font-weight: bold;
+    font-size: 400%;
+    margin-top: 65px;
+}
+
+.main-content {
+    text-align: center;
+}
+
+.main-para {
+    text-align: center;
+    font-size: 26px;
+    margin-right: 5px;
+    font-weight: 'karla';
+}
+
+.video-container {
+    transition: 0.8s ease;
+}
+
+iframe {
+    color: rgba(0,0,0,.5);
+    
+}
+
+.img {
+    width: 70%;
+    min-width: 20%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    cursor: pointer;
+    border-radius: 2rem;
+    margin-top: 5%;
+    transition: 0.4s ease-in-out;
+}
+
+.img:hover {
+    width: 72%;
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.hidden {
+    display: none;
+}
+
+.end-head {
+    text-align: center;
+    font-weight: 900;
+    font-size: 80px;
+    color: #333;
+    font-weight: 1.5;
+    font-family: 'karla';
+    margin-top: 5%;
+}
+
+.end-content {
+    text-align: center;
+}
+
+.btn-end {
+    background-color: #04ddb2;
+    outline: none;
+    border-radius: 13.5rem;
+    outline: #04ddb2;
+    padding: 0.7rem 2.5rem;
+    font-weight: 700;
+    color: #fff;
+    font-size: large;
+    margin-top: 0.5rem;
+    border-color: #04ddb2;
+    transition: 0.4s ease-in-out;
+    margin: 5% 0;
+}
+
+.btn-end:hover {
+    background-color: #04ddb2;
+    border: #04ddb2;
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    padding: 1rem 3rem; 
+}
+
+footer {
+    text-align: center;
+    color: #767676;
+}
+
+a {
+    text-decoration: none;
+    color: #767676;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #767676;
+}
